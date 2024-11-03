@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>home</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <div class="information-bar">
+            <p>Free shipping over 600kr</p>
+        </div>
+
+        <div class="navigation-container">
+            <a href="index.html" class="logo">
+                <img src="images/rainydays-logo.png" alt="rainydays-logo" id="green-logo-1">
+                <img src="images/green-logo.svg" alt="rainydays-logo" id="green-logo-2">
+            </a>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+
+            <nav class="navbar">
+                <a href="index.html" class="active">Home</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>  
+                <a href="checkout.html" id="checkout-nav">Checkout</a>  
+                <span class="active-nav"></span>
+            </nav>
+
+            <div class="nav-icons">
+                <a href="#"><img src="images/search-icon.svg" alt="search-icon"></a>
+                <a href="#"><img src="images/profile-icon.svg" alt="profile-icon Icon"></a>
+                <a href="#"><img src="images/favourite-icon.svg" alt="favourite-icon"></a>
+                <a href="#"><img src="images/checkout-icon.svg" alt="checkout-icon"></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="checkout">
+
+        <div class="checkout-container-1">
+            <div class="checkout-item">
+            <h3>Delivery Information</h3>
+            
+                <form action="#" method="post">  
+                    <div class="input-box-1">
+                        <div class="input-field-1">
+                            <label>E-mail</label>
+                            <input type="text" id="email" placeholder="Email" required>
+                        </div>
+                    </div>	
+                    <div class="input-box-2">
+                        <div class="input-field-2">
+                            <label>First Name</label>
+                            <input type="text" id="name" placeholder="First Name" required>
+                        </div>
+                        <div class="input-field-2">
+                            <label>Last Name</label>
+                            <input type="text" id="name" placeholder="Last Name" required>
+                        </div>   
+                    </div>
+                    <div class="input-box-1">
+                        <div class="input-field-1">
+                            <label>Phone Number</label>
+                            <input type="number" id="phone-number" placeholder="Phone Number" required>
+                        </div>
+                    </div>
+                    <div class="input-box-1">
+                        <div class="input-field-1">
+                            <label>Street Number</label>
+                            <input type="text" id="street-number" placeholder="Street Number" required>
+                        </div>
+                    </div>
+                    <div class="input-box-2">
+                        <div class="input-field-2">
+                            <label>Postal Code</label>
+                            <input type="text" id="postal-code" placeholder="Postal Code" required>
+                        </div>
+                        <div class="input-field-2">
+                            <label>Place/City</label>
+                            <input type="text" id="place-city" placeholder="Place/City" required>
+                        </div> 
+                    </div>
+                </form>
+            </div>
+
+            <div class="checkout-item">
+                <h3>Payment Method</h3>
+                <form action="#" method="post">
+                    <div class="payment-method">
+                        <div class="payment-list">
+                            <a class="payment-button">Credit Card</a>
+                            <a class="payment-button">Pay Pal</a>
+                            <a class="payment-button">Vipps</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="checkout-item">
+                <h3>Enter Discount Code</h3>
+                <form action="#" method="post">
+                    <div class="input-box-3">
+                        <div class="input-field-3">
+                            <input type="text" id="discount-code" placeholder="Discount Code" required>
+                            <button type="submit">Use</button>
+                        </div>     
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="checkout-container-2">
+            <div class="container">
+                <h3>Order Summary</h3>
+                <h4>1 Item</h4>
+                <div class="checkout-product">
+                    <img src="images/aqua-shield.jpg" alt="Man in rain">
+
+                    <div class="checkout-product-text">
+                        <h4>Aqua Shield</h4>
+                        <p>400 kr</p>
+                        <p>Size: L</p>
+                        <p>Quantity: 1</p>
+                    </div>
+                </div>
+                    <div class="checkout-sum">        
+                        <div class="checkout-sum-item-1">
+                            <p>Subtotal</p>
+                            <p>1999 kr</p>
+                        </div>
+                        <div class="checkout-sum-item-1">
+                            <p>Discount</p>
+                            <p>0 kr</p>
+                        </div>
+                        <div class="checkout-sum-item-1">
+                            <p>Shipping</p>
+                            <p>0 kr</p>
+                        </div>
+                    </div>
+                    <div class="checkout-sum">
+                        <div class="checkout-sum-item-2">
+                            <h3>Total</h3>
+                            <h3>1999 kr</h3>
+                        </div>
+                    </div>
+                    <div class="container-2">
+                        <div class="buy">
+                            <a href="checkout-successful.html" class="buy-button">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        
+
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-wrapper">
+
+            <div class="white-logo"> 
+                 <a href="index.html"><img src="images/white-logo.svg" alt="rainydays-white-logo"></a>
+            </div>
+            <ul class="footer-navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="footer-social-icons">
+                <a href="#"><img src="images/facebook-logo.svg" alt="facebook-icon"></a>
+                <a href="#"><img src="images/instagram-logo.svg" alt="instagram-icon"></a>
+                <a href="#"><img src="images/x-logo.svg" alt="x-icon"></a>
+            </div>
+        </div>    
+            
+        <div class="bottom-text">
+            <p>Copyright © 2024 Rainy Days | All rights Reserved</p>
+        </div>
+            
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
